@@ -14,12 +14,12 @@ I build a linear regression model **from scratch** using **gradient descent** I 
   * Feature scaling (zero mean, unit variance) applied before training.
   * Custom `predict`, `compute_mse`, and `compute_r2` helper functions.
 * **Final Task**: Predict **Runs scored (R)** using the top 10 most correlated numeric features.
-* **Outstanding Performance**: Achieved **extremely high R²** on the test set, demonstrating a strong linear fit.
+* **Outstanding Performance**: Achieved **an R² of 0.95** on the test set, demonstrating a strong linear fit.
 * **Configurable Output**: Easily adjust the number of test-sample comparisons printed (first *x* predictions vs. actuals).
 
 ---
 
-# Iteration History
+# Iteration History - description made using help of chat gpt on my version history
 
 1. **Age Prediction Prototype**
 
