@@ -19,6 +19,8 @@ I build two versions of a linear regression model **from scratch** on MLB player
 - Removal of multicollinear predictors (|pairwise corr| > 0.9).  
 - Optional pairwise interaction terms, filtered by minimal signal.  
 
+---
+
 **Gradient Descent Methodology**:  
 I use **plain-vanilla batch gradient descent** to minimize the Mean Squared Error (MSE) of our linear model.
 
@@ -105,7 +107,3 @@ Over epochs = 2000, this steadily moves β toward the MSE minimum.
 6. **Configurable Predictions Display**  
    - Extended code to print the first *x* actual vs. predicted values for test samples.  
    - Made *x* adjustable via a single variable at the top of the script.
-
----
-
-*This README encapsulates the development journey of building custom linear regression models—with and without feature scaling—using gradient descent, highlighting iterative refinements and the final high-performing runs prediction.*  
