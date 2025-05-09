@@ -6,7 +6,7 @@ multinomial linear regression from scratch using custom gradient descent
 I build a linear regression model **from scratch** using **gradient descent** I made myself on MLB player statistics to predict key outcomes. Key highlights:
 
 **NO SCIKIT LEARN OR OTHER ML LIBRARIES
-* **Data Source**: 2023 MLB Player Stats (cleaned CSV).
+* **Data Source**: 2023 MLB Player Stats (cleaned CSV). (https://www.kaggle.com/datasets/vivovinco/2023-mlb-player-stats/data)
 * **Feature Selection**: Automated ranking by absolute correlation, removal of multicollinear predictors, optional interaction terms.
 * **Regression Methodology**:
 
